@@ -1,0 +1,8 @@
+z=90
+s=83
+q=81
+d=68
+arrowleft=37
+arrowup=38
+arrowright=39
+arrowdown=40
