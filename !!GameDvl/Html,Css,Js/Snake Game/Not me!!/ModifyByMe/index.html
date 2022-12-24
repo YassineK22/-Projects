@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <script defer src="game.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">Snake Game</div>
+    <div class="nav speed" id="speed">
+        <div class="block less" id="less"> </div> 
+        <div class="block tspeed"> Speed <span class="speednu" id="speednu">0</span> </div> 
+        <div class="block more" id="more"> </div>
+    </div>
+    <canvas id="canvas" width="400" height="400"></canvas> 
+    <div class="nav">
+        <div id='restart' class="block play">Restart</div>
+        <div class="block score">Score: <span id="score"></span></div>
+        <div class="block timer" id="timer">0:00</div>
+    </div>
+</body>
+</html>
