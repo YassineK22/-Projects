@@ -1,0 +1,33 @@
+git init ["create repo"]
+git remote add origin [link] "adds the url to the repo"
+git add . add ["files to track"]
+git commit -m "message" [saves a checkpoint with a message]
+git push -u origin master ["sends to github"] 
+--------------
+Save changes
+git add .
+git commit -m "message"
+git push
+---------------
+downlowd from github
+git pull
+-----------------------------------------------
+git config --global user.name
+  "Your name here"
+git config --global user.email "your_email@example.com"
+git config --global color.ui true
+ssh-keygen -t rsa -C "your_email@example.com"
+ssh -T git@github.com
+
+git init create repo
+git remote add origin [link] adds the url to the repo
+git add . add files to track
+git commit -m "message" saves a checkpoint with a message
+git push sends to github
+git push -u origin main or master first time push only
+git pull downloads the changes from github 
+git clone [link] downloads a repo
+-------------------------------------------------
+ssh-add
+eval $(ssh-agent -s)
+----------------------- 
